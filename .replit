@@ -1,0 +1,49 @@
+modules = ["nodejs-20", "postgresql-16"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Start Application"
+
+[[workflows.workflow]]
+name = "Setup Database"
+author = 45326607
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sudo service postgresql start"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sudo -u postgres createuser -s torevar || echo \"User already exists\""
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sudo -u postgres createdb telegram_bot || echo \"Database already exists\""
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sudo -u postgres psql -c \"ALTER USER torevar PASSWORD 'hesoyam';\""
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PGPASSWORD=hesoyam psql -U torevar -d telegram_bot -f init.sql"
+
+[[workflows.workflow]]
+name = "Start Application"
+author = 45326607
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm install --legacy-peer-deps"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run build"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm start"

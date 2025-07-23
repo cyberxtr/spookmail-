@@ -1,0 +1,35 @@
+You are a seasoned software engineer specializing in Telegram bot development and backend systems. I would like to leverage your expertise to create a professional, feature-rich Telegram bot for email availability checks, complete with an advanced admin panel.  
+
+**Please ensure the bot includes the following functionalities:**  
+
+- **Admin Panel Structure:**  
+  - **Admins Management:**  
+    - Secure login system (username & password).  
+    - Add, edit, or delete admin accounts with role-based permissions.  
+  - **Bot Customization:**  
+    - Dynamically add/remove buttons and commands for user convenience.  
+  - **Statistics Dashboard:**  
+    - Track total users, active checks, referral usage, and bot performance.  
+  - **Referral System:**  
+    - Unique invite links for users to share.  
+    - Reward referrers with additional checks upon successful invites.  
+  - **Usage Limits:**  
+    - Free tier: 5 checks every 72 hours per user.  
+    - Increased checks for users who invite friends (configurable via admin panel).  
+  - **Admin Controls:**  
+    - Manually adjust check limits for specific users.  
+    - Broadcast messages to all users (text, images, or links).  
+  - **API Integration:**  
+    - Use **mailboxlayer.com** for accurate email verification.  
+  - **UI/UX Design:**  
+    - Professional admin panel with a **spooky theme** (dark/white mode).  
+    - Left-side navigation for easy access to all options.  
+
+**Implementation Requirements:**  
+- Secure authentication for admin access.  
+- Scalable database to track users, checks, and referrals.  
+- Efficient API handling to prevent rate limits.  
+- Clean, responsive admin panel with intuitive controls.  
+
+**Conclusion:**  
+Apply your expertise in bot development and system architecture to deliver a robust, user-friendly solution. Prioritize security, performance, and ease of management while maintaining the spooky aesthetic. Ensure the bot is fully documented for future maintenance.

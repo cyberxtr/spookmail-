@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmit": false,
+    "module": "CommonJS",
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": false,
+    "paths": {
+      "@shared/*": ["./shared/*"]
+    }
+  },
+  "include": ["server", "shared"],
+  "exclude": ["client", "dist"]
+}

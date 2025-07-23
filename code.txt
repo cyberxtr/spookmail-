@@ -1,0 +1,3013 @@
+The following is a digest of the repository "TelegramAssistant".
+This digest is designed to be easily parsed by Large Language Models.
+
+--- SUMMARY ---
+Repository: TelegramAssistant
+Files Analyzed: 72
+Total Text Size: 80 KB
+Estimated Tokens (text only): ~22,950
+
+--- DIRECTORY STRUCTURE ---
+TelegramAssistant/
+├── .vs/
+│   ├── TelegramAssistant/
+│   │   ├── copilot-chat/
+│   │   │   └── 02348349/
+│   │   │       └── sessions/
+│   │   │           ├── 6b56e6a1-c2ae-475d-93fe-fd142dd1bfaf [binary]
+│   │   │           ├── 7df8ef73-b5d5-4f6e-81c7-4867f158a271 [binary]
+│   │   │           └── 8b403e57-4a32-442f-a85a-1966b95497d4 [binary]
+│   │   ├── CopilotIndices/
+│   │   │   └── 17.14.719.50355/
+│   │   │       ├── CodeChunks.db-shm [binary]
+│   │   │       ├── CodeChunks.db-wal [binary]
+│   │   │       ├── SemanticSymbols.db-shm [binary]
+│   │   │       └── SemanticSymbols.db-wal [binary]
+│   │   ├── FileContentIndex/
+│   │   │   ├── 151387a9-88b0-4682-969a-78ce0e1b7163.vsidx [unreadable]
+│   │   │   ├── 465d94cb-2e44-4b46-a514-d74d0042cdc3.vsidx [unreadable]
+│   │   │   ├── 6715a27b-7122-45a4-82c4-f6ec28826ba1.vsidx [unreadable]
+│   │   │   ├── dd6214ae-91ce-43ab-b784-f24995042eac.vsidx [unreadable]
+│   │   │   └── fba39624-35ec-4352-9739-2957bd55ea3f.vsidx [unreadable]
+│   │   └── v17/
+│   │       ├── .wsuo [binary]
+│   │       ├── DocumentLayout.backup.json
+│   │       └── DocumentLayout.json
+│   ├── ProjectSettings.json
+│   └── VSWorkspaceState.json
+├── attached_assets/
+│   └── Pasted-You-are-a-seasoned-software-engineer-specializing-in-Telegram-bot-development-and-backend-systems-I-1753106225175_1753106225176.txt
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── layout/
+│   │   │   │   └── DashboardLayout.tsx
+│   │   │   ├── ui/
+│   │   │   │   ├── button.tsx
+│   │   │   │   ├── card.tsx
+│   │   │   │   ├── input.tsx
+│   │   │   │   ├── label.tsx
+│   │   │   │   ├── loading-spinner.tsx
+│   │   │   │   ├── toast.tsx
+│   │   │   │   └── toaster.tsx
+│   │   │   ├── package.json
+│   │   │   └── theme-provider.tsx
+│   │   ├── hooks/
+│   │   │   ├── use-toast.ts [binary]
+│   │   │   ├── use-toast.tsx
+│   │   │   └── useAuth.ts [binary]
+│   │   ├── pages/
+│   │   │   ├── AdminsPage.tsx
+│   │   │   ├── BroadcastsPage.tsx
+│   │   │   ├── DashboardPage.tsx
+│   │   │   ├── EmailChecksPage.tsx
+│   │   │   ├── LoginPage.tsx
+│   │   │   ├── SettingsPage.tsx
+│   │   │   └── UsersPage.tsx
+│   │   ├── App.tsx
+│   │   ├── index.css
+│   │   └── main.tsx
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── drizzle/
+│   └── meta/
+│       └── _journal.json
+├── scripts/
+│   ├── fix-docker.sh
+│   ├── fix-postcss-docker.bat [binary]
+│   ├── fix-postcss-docker.sh
+│   ├── run-windows.bat [binary]
+│   ├── setup-docker.sh
+│   └── setup-windows.bat [binary]
+├── server/
+│   ├── middleware/
+│   │   └── auth.ts [binary]
+│   ├── services/
+│   │   ├── emailService.ts [binary]
+│   │   └── telegramBot.ts [binary]
+│   ├── utils/
+│   │   └── helpers.ts [binary]
+│   ├── db.ts [binary]
+│   ├── index.ts [binary]
+│   ├── migrate.ts [binary]
+│   ├── routes.ts [binary]
+│   └── storage.ts [binary]
+├── shared/
+│   └── schema.ts [binary]
+├── .replit
+├── drizzle.config.ts [binary]
+├── package.json
+├── README.md
+├── replit.md
+├── SETUP_INSTRUCTIONS.md
+├── tailwind.config.ts [binary]
+├── tsconfig.json
+├── tsconfig.node.json
+├── tsconfig.server.json
+└── WINDOWS_SETUP.md
+
+
+--- FILE CONTENTS ---
+============================================================
+FILE: .vs/TelegramAssistant/v17/DocumentLayout.backup.json
+============================================================
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\server\\routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\Dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "routes.ts",
+              "DocumentMoniker": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\server\\routes.ts",
+              "RelativeDocumentMoniker": "server\\routes.ts",
+              "ToolTip": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\server\\routes.ts",
+              "RelativeToolTip": "server\\routes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-22T11:30:44.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-22T11:30:13.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAhwCoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-22T11:24:48.259Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+============================================================
+FILE: .vs/TelegramAssistant/v17/DocumentLayout.json
+============================================================
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\Dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\torevar\\Desktop\\EmailV2\\TelegramAssistant\\TelegramAssistant\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-22T18:07:52.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+============================================================
+FILE: .vs/ProjectSettings.json
+============================================================
+{
+  "CurrentProjectSetting": null
+}
+
+============================================================
+FILE: .vs/VSWorkspaceState.json
+============================================================
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\components"
+  ],
+  "SelectedNode": "\\client\\src\\components\\package.json",
+  "PreviewInSolutionExplorer": false
+}
+
+============================================================
+FILE: attached_assets/Pasted-You-are-a-seasoned-software-engineer-specializing-in-Telegram-bot-development-and-backend-systems-I-1753106225175_1753106225176.txt
+============================================================
+You are a seasoned software engineer specializing in Telegram bot development and backend systems. I would like to leverage your expertise to create a professional, feature-rich Telegram bot for email availability checks, complete with an advanced admin panel.  
+
+**Please ensure the bot includes the following functionalities:**  
+
+- **Admin Panel Structure:**  
+  - **Admins Management:**  
+    - Secure login system (username & password).  
+    - Add, edit, or delete admin accounts with role-based permissions.  
+  - **Bot Customization:**  
+    - Dynamically add/remove buttons and commands for user convenience.  
+  - **Statistics Dashboard:**  
+    - Track total users, active checks, referral usage, and bot performance.  
+  - **Referral System:**  
+    - Unique invite links for users to share.  
+    - Reward referrers with additional checks upon successful invites.  
+  - **Usage Limits:**  
+    - Free tier: 5 checks every 72 hours per user.  
+    - Increased checks for users who invite friends (configurable via admin panel).  
+  - **Admin Controls:**  
+    - Manually adjust check limits for specific users.  
+    - Broadcast messages to all users (text, images, or links).  
+  - **API Integration:**  
+    - Use **mailboxlayer.com** for accurate email verification.  
+  - **UI/UX Design:**  
+    - Professional admin panel with a **spooky theme** (dark/white mode).  
+    - Left-side navigation for easy access to all options.  
+
+**Implementation Requirements:**  
+- Secure authentication for admin access.  
+- Scalable database to track users, checks, and referrals.  
+- Efficient API handling to prevent rate limits.  
+- Clean, responsive admin panel with intuitive controls.  
+
+**Conclusion:**  
+Apply your expertise in bot development and system architecture to deliver a robust, user-friendly solution. Prioritize security, performance, and ease of management while maintaining the spooky aesthetic. Ensure the bot is fully documented for future maintenance.
+
+============================================================
+FILE: client/src/components/layout/DashboardLayout.tsx
+============================================================
+import { useState } from 'react'
+import { Link, useLocation } from 'wouter'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
+import { apiRequest } from '@/lib/queryClient'
+import { useToast } from '@/hooks/use-toast'
+import { useTheme } from '@/components/theme-provider'
+import { Button } from '@/components/ui/button'
+import { 
+  LayoutDashboard, 
+  Users, 
+  Mail, 
+  Megaphone, 
+  Settings, 
+  UserCog, 
+  LogOut, 
+  Menu, 
+  X, 
+  Moon, 
+  Sun,
+  Skull
+} from 'lucide-react'
+import { cn } from '@/lib/utils'
+
+interface DashboardLayoutProps {
+  children: React.ReactNode
+}
+
+const navigation = [
+  { name: 'Dashboard', href: '/', icon: LayoutDashboard },
+  { name: 'Users', href: '/users', icon: Users },
+  { name: 'Email Checks', href: '/email-checks', icon: Mail },
+  { name: 'Broadcasts', href: '/broadcasts', icon: Megaphone },
+  { name: 'Settings', href: '/settings', icon: Settings },
+  { name: 'Admins', href: '/admins', icon: UserCog },
+]
+
+export function DashboardLayout({ children }: DashboardLayoutProps) {
+  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [location] = useLocation()
+  const { theme, setTheme } = useTheme()
+  const { toast } = useToast()
+  const queryClient = useQueryClient()
+
+  const logoutMutation = useMutation({
+    mutationFn: () => apiRequest('/api/auth/logout', { method: 'POST' }),
+    onSuccess: () => {
+      toast({
+        title: "Logged out successfully",
+        description: "You have been logged out of the admin panel",
+      })
+      queryClient.invalidateQueries({ queryKey: ['/api/auth/me'] })
+    },
+  })
+
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark")
+  }
+
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Mobile sidebar overlay */}
+      {sidebarOpen && (
+        <div 
+          className="fixed inset-0 z-50 bg-black/20 backdrop-blur-sm lg:hidden"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
+
+      {/* Sidebar */}
+      <div className={cn(
+        "fixed inset-y-0 z-50 flex w-64 flex-col transition-transform duration-300 lg:translate-x-0",
+        sidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
+      )}>
+        <div className="spooky-card flex grow flex-col gap-y-5 overflow-y-auto border-r border-border/50 px-6 pb-4">
+          {/* Logo/Header */}
+          <div className="flex h-16 shrink-0 items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center spooky-shadow">
+                <Skull className="h-5 w-5 text-primary" />
+              </div>
+              <div>
+                <h1 className="text-lg font-bold">SpookMail</h1>
+                <p className="text-xs text-muted-foreground">Admin Panel</p>
+              </div>
+            </div>
+            <Button
+              variant="ghost"
+              size="icon"
+              className="lg:hidden"
+              onClick={() => setSidebarOpen(false)}
+            >
+              <X className="h-5 w-5" />
+            </Button>
+          </div>
+
+          {/* Navigation */}
+          <nav className="flex flex-1 flex-col">
+            <ul role="list" className="flex flex-1 flex-col gap-y-2">
+              {navigation.map((item) => {
+                const isActive = location === item.href
+                return (
+                  <li key={item.name}>
+                    <Link href={item.href}>
+                      <a className={cn(
+                        "group flex gap-x-3 rounded-md p-3 text-sm font-medium transition-all duration-200",
+                        isActive
+                          ? "spooky-gradient text-white spooky-shadow"
+                          : "text-muted-foreground hover:text-foreground hover:bg-accent"
+                      )}>
+                        <item.icon
+                          className={cn(
+                            "h-5 w-5 shrink-0 transition-colors",
+                            isActive ? "text-white" : "text-muted-foreground group-hover:text-foreground"
+                          )}
+                        />
+                        {item.name}
+                      </a>
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
+
+            {/* Bottom actions */}
+            <div className="mt-auto space-y-2">
+              <Button
+                variant="ghost"
+                size="sm"
+                className="w-full justify-start"
+                onClick={toggleTheme}
+              >
+                {theme === "dark" ? (
+                  <>
+                    <Sun className="h-4 w-4 mr-2" />
+                    Light mode
+                  </>
+                ) : (
+                  <>
+                    <Moon className="h-4 w-4 mr-2" />
+                    Dark mode
+                  </>
+                )}
+              </Button>
+              
+              <Button
+                variant="ghost"
+                size="sm"
+                className="w-full justify-start text-destructive hover:text-destructive"
+                onClick={() => logoutMutation.mutate()}
+                disabled={logoutMutation.isPending}
+              >
+                <LogOut className="h-4 w-4 mr-2" />
+                {logoutMutation.isPending ? 'Logging out...' : 'Logout'}
+              </Button>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      {/* Main content */}
+      <div className="lg:pl-64">
+        {/* Top header for mobile */}
+        <div className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-4 border-b border-border/50 bg-background/80 backdrop-blur-sm px-4 sm:gap-x-6 sm:px-6 lg:px-8">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="lg:hidden"
+            onClick={() => setSidebarOpen(true)}
+          >
+            <Menu className="h-5 w-5" />
+          </Button>
+
+          <div className="h-6 w-px bg-border lg:hidden" />
+
+          <div className="flex flex-1 items-center justify-between">
+            <div className="flex items-center gap-2">
+              <h1 className="text-lg font-semibold capitalize">
+                {navigation.find(nav => nav.href === location)?.name || 'Dashboard'}
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        {/* Page content */}
+        <main className="py-6">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            {children}
+          </div>
+        </main>
+      </div>
+    </div>
+  )
+}
+
+============================================================
+FILE: client/src/components/ui/button.tsx
+============================================================
+import * as React from "react"
+import { Slot } from "@radix-ui/react-slot"
+import { cva, type VariantProps } from "class-variance-authority"
+import { cn } from "@/lib/utils"
+
+const buttonVariants = cva(
+  "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+  {
+    variants: {
+      variant: {
+        default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
+        destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
+        outline: "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
+        secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
+        ghost: "hover:bg-accent hover:text-accent-foreground",
+        link: "text-primary underline-offset-4 hover:underline",
+      },
+      size: {
+        default: "h-9 px-4 py-2",
+        sm: "h-8 rounded-md px-3 text-xs",
+        lg: "h-10 rounded-md px-8",
+        icon: "h-9 w-9",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      size: "default",
+    },
+  }
+)
+
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
+    VariantProps<typeof buttonVariants> {
+  asChild?: boolean
+}
+
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, variant, size, asChild = false, ...props }, ref) => {
+    const Comp = asChild ? Slot : "button"
+    return (
+      <Comp
+        className={cn(buttonVariants({ variant, size, className }))}
+        ref={ref}
+        {...props}
+      />
+    )
+  }
+)
+Button.displayName = "Button"
+
+export { Button, buttonVariants }
+
+============================================================
+FILE: client/src/components/ui/card.tsx
+============================================================
+import * as React from "react"
+import { cn } from "@/lib/utils"
+
+const Card = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div
+    ref={ref}
+    className={cn(
+      "rounded-xl border bg-card text-card-foreground shadow",
+      className
+    )}
+    {...props}
+  />
+))
+Card.displayName = "Card"
+
+const CardHeader = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div ref={ref} className={cn("flex flex-col space-y-1.5 p-6", className)} {...props} />
+))
+CardHeader.displayName = "CardHeader"
+
+const CardTitle = React.forwardRef<
+  HTMLParagraphElement,
+  React.HTMLAttributes<HTMLHeadingElement>
+>(({ className, ...props }, ref) => (
+  <h3
+    ref={ref}
+    className={cn("font-semibold leading-none tracking-tight", className)}
+    {...props}
+  />
+))
+CardTitle.displayName = "CardTitle"
+
+const CardDescription = React.forwardRef<
+  HTMLParagraphElement,
+  React.HTMLAttributes<HTMLParagraphElement>
+>(({ className, ...props }, ref) => (
+  <p
+    ref={ref}
+    className={cn("text-sm text-muted-foreground", className)}
+    {...props}
+  />
+))
+CardDescription.displayName = "CardDescription"
+
+const CardContent = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div ref={ref} className={cn("p-6 pt-0", className)} {...props} />
+))
+CardContent.displayName = "CardContent"
+
+const CardFooter = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div ref={ref} className={cn("flex items-center p-6 pt-0", className)} {...props} />
+))
+CardFooter.displayName = "CardFooter"
+
+export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }
+
+============================================================
+FILE: client/src/components/ui/input.tsx
+============================================================
+import * as React from "react"
+import { cn } from "@/lib/utils"
+
+export interface InputProps
+  extends React.InputHTMLAttributes<HTMLInputElement> {}
+
+const Input = React.forwardRef<HTMLInputElement, InputProps>(
+  ({ className, type, ...props }, ref) => {
+    return (
+      <input
+        type={type}
+        className={cn(
+          "flex h-9 w-full rounded-md border border-input bg-background px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50",
+          className
+        )}
+        ref={ref}
+        {...props}
+      />
+    )
+  }
+)
+Input.displayName = "Input"
+
+export { Input }
+
+============================================================
+FILE: client/src/components/ui/label.tsx
+============================================================
+import * as React from "react"
+import * as LabelPrimitive from "@radix-ui/react-label"
+import { cva, type VariantProps } from "class-variance-authority"
+import { cn } from "@/lib/utils"
+
+const labelVariants = cva(
+  "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+)
+
+const Label = React.forwardRef<
+  React.ElementRef<typeof LabelPrimitive.Root>,
+  React.ComponentPropsWithoutRef<typeof LabelPrimitive.Root> &
+    VariantProps<typeof labelVariants>
+>(({ className, ...props }, ref) => (
+  <LabelPrimitive.Root
+    ref={ref}
+    className={cn(labelVariants(), className)}
+    {...props}
+  />
+))
+Label.displayName = LabelPrimitive.Root.displayName
+
+export { Label }
+
+============================================================
+FILE: client/src/components/ui/loading-spinner.tsx
+============================================================
+import { cn } from "@/lib/utils"
+
+interface LoadingSpinnerProps {
+  size?: "sm" | "md" | "lg"
+  className?: string
+}
+
+export function LoadingSpinner({ size = "md", className }: LoadingSpinnerProps) {
+  return (
+    <div
+      className={cn(
+        "animate-spin rounded-full border-2 border-primary/20 border-t-primary",
+        {
+          "h-4 w-4": size === "sm",
+          "h-8 w-8": size === "md",
+          "h-12 w-12": size === "lg",
+        },
+        className
+      )}
+    />
+  )
+}
+
+============================================================
+FILE: client/src/components/ui/toast.tsx
+============================================================
+import React from "react"
+import { cn } from "@/lib/utils"
+
+export interface ToastProps {
+  id: string
+  title?: string
+  description?: string
+  variant?: 'default' | 'destructive'
+}
+
+export const Toast = React.forwardRef<
+  HTMLDivElement,
+  ToastProps & React.HTMLAttributes<HTMLDivElement>
+>(({ className, variant = 'default', title, description, ...props }, ref) => {
+  return (
+    <div
+      ref={ref}
+      className={cn(
+        "group pointer-events-auto relative flex w-full items-center justify-between space-x-4 overflow-hidden rounded-md border p-6 pr-8 shadow-lg transition-all",
+        variant === 'destructive'
+          ? "border-red-500 bg-red-950 text-red-50"
+          : "border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-50",
+        className
+      )}
+      {...props}
+    >
+      <div className="grid gap-1">
+        {title && (
+          <div className="text-sm font-semibold">
+            {title}
+          </div>
+        )}
+        {description && (
+          <div className="text-sm opacity-90">
+            {description}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+})
+Toast.displayName = "Toast"
+
+// Add these exports to toast.tsx
+export const ToastProvider = ({ children }: { children: React.ReactNode }) => {
+  return <>{children}</>
+}
+
+export const ToastViewport = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => {
+  return (
+    <div
+      ref={ref}
+      className={cn(
+        "fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]",
+        className
+      )}
+      {...props}
+    />
+  )
+})
+ToastViewport.displayName = "ToastViewport"
+
+export const ToastTitle = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLHeadingElement>
+>(({ className, ...props }, ref) => {
+  return <div ref={ref} className={cn("text-sm font-semibold", className)} {...props} />
+})
+ToastTitle.displayName = "ToastTitle"
+
+export const ToastDescription = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLParagraphElement>
+>(({ className, ...props }, ref) => {
+  return <div ref={ref} className={cn("text-sm opacity-90", className)} {...props} />
+})
+ToastDescription.displayName = "ToastDescription"
+
+export const ToastClose = React.forwardRef<
+  HTMLButtonElement,
+  React.ButtonHTMLAttributes<HTMLButtonElement>
+>(({ className, ...props }, ref) => {
+  return (
+    <button
+      ref={ref}
+      className={cn(
+        "absolute right-2 top-2 rounded-md p-1 text-gray-500 opacity-0 transition-opacity hover:text-gray-900 focus:opacity-100 focus:outline-none focus:ring-2 group-hover:opacity-100",
+        className
+      )}
+      {...props}
+    >
+      <span className="sr-only">Close</span>
+      {/* You can add an X icon here */}
+    </button>
+  )
+})
+ToastClose.displayName = "ToastClose"
+
+
+============================================================
+FILE: client/src/components/ui/toaster.tsx
+============================================================
+import {
+  Toast,
+  ToastClose,
+  ToastDescription,
+  ToastProvider,
+  ToastTitle,
+  ToastViewport,
+} from "@/components/ui/toast"
+import { useToast } from "@/hooks/use-toast"
+
+export function Toaster() {
+  const { toasts } = useToast()
+
+  return (
+    <ToastProvider>
+      {toasts.map(function ({ id, title, description, action, ...props }) {
+        return (
+          <Toast key={id} {...props}>
+            <div className="grid gap-1">
+              {title && <ToastTitle>{title}</ToastTitle>}
+              {description && (
+                <ToastDescription>{description}</ToastDescription>
+              )}
+            </div>
+            {action}
+            <ToastClose />
+          </Toast>
+        )
+      })}
+      <ToastViewport />
+    </ToastProvider>
+  )
+}
+
+============================================================
+FILE: client/src/components/package.json
+============================================================
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "dev:client": "cd client && vite",
+    "dev:server": "cd server && tsx index.ts",
+    "build": "cd client && vite build",
+    "preview": "cd client && vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hookform/resolvers": "^5.1.1",
+    "@neondatabase/serverless": "^1.0.1",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-dropdown-menu": "^2.1.15",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-select": "^2.2.5",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-switch": "^1.2.5",
+    "@radix-ui/react-toast": "^1.2.14",
+    "@tanstack/react-query": "^5.83.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/express-session": "^1.18.2",
+    "@types/node": "^24.0.15",
+    "@types/pg": "^8.15.4",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.18.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "concurrently": "^9.2.0",
+    "connect-pg-simple": "^10.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "drizzle-kit": "^0.18.1",
+    "drizzle-orm": "^0.44.3",
+    "drizzle-zod": "^0.8.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "lucide-react": "^0.525.0",
+    "pg": "^8.16.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.60.0",
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^3.3.1",
+    "telegraf": "^4.16.3",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0",
+    "vite": "^6.3.5",
+    "wouter": "^3.7.1",
+    "ws": "^8.18.3",
+    "zod": "^3.25.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "path": "^0.12.7",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
+
+
+============================================================
+FILE: client/src/components/theme-provider.tsx
+============================================================
+import { createContext, useContext, useEffect, useState } from "react"
+
+type Theme = "dark" | "light" | "system"
+
+type ThemeProviderProps = {
+  children: React.ReactNode
+  defaultTheme?: Theme
+  storageKey?: string
+}
+
+type ThemeProviderState = {
+  theme: Theme
+  setTheme: (theme: Theme) => void
+}
+
+const initialState: ThemeProviderState = {
+  theme: "system",
+  setTheme: () => null,
+}
+
+const ThemeProviderContext = createContext<ThemeProviderState>(initialState)
+
+export function ThemeProvider({
+  children,
+  defaultTheme = "system",
+  storageKey = "vite-ui-theme",
+  ...props
+}: ThemeProviderProps) {
+  const [theme, setTheme] = useState<Theme>(
+    () => (localStorage.getItem(storageKey) as Theme) || defaultTheme
+  )
+
+  useEffect(() => {
+    const root = window.document.documentElement
+
+    root.classList.remove("light", "dark")
+
+    if (theme === "system") {
+      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+        .matches
+        ? "dark"
+        : "light"
+
+      root.classList.add(systemTheme)
+      return
+    }
+
+    root.classList.add(theme)
+  }, [theme])
+
+  const value = {
+    theme,
+    setTheme: (theme: Theme) => {
+      localStorage.setItem(storageKey, theme)
+      setTheme(theme)
+    },
+  }
+
+  return (
+    <ThemeProviderContext.Provider {...props} value={value}>
+      {children}
+    </ThemeProviderContext.Provider>
+  )
+}
+
+export const useTheme = () => {
+  const context = useContext(ThemeProviderContext)
+
+  if (context === undefined)
+    throw new Error("useTheme must be used within a ThemeProvider")
+
+  return context
+}
+
+============================================================
+FILE: client/src/hooks/use-toast.tsx
+============================================================
+import * as React from "react"
+import type { ToastActionElement, ToastProps } from "@/components/ui/toast"
+
+const TOAST_LIMIT = 1
+const TOAST_REMOVE_DELAY = 1000000
+
+type ToasterToast = ToastProps & {
+  id: string
+  title?: React.ReactNode
+  description?: React.ReactNode
+  action?: ToastActionElement
+}
+
+const actionTypes = {
+  ADD_TOAST: "ADD_TOAST",
+  UPDATE_TOAST: "UPDATE_TOAST",
+  DISMISS_TOAST: "DISMISS_TOAST",
+  REMOVE_TOAST: "REMOVE_TOAST",
+} as const
+
+let count = 0
+
+function genId() {
+  count = (count + 1) % Number.MAX_SAFE_INTEGER
+  return count.toString()
+}
+
+type ActionType = typeof actionTypes
+
+type Action =
+  | {
+      type: ActionType["ADD_TOAST"]
+      toast: ToasterToast
+    }
+  | {
+      type: ActionType["UPDATE_TOAST"]
+      toast: Partial<ToasterToast>
+    }
+  | {
+      type: ActionType["DISMISS_TOAST"]
+      toastId?: ToasterToast["id"]
+    }
+  | {
+      type: ActionType["REMOVE_TOAST"]
+      toastId?: ToasterToast["id"]
+    }
+
+interface State {
+  toasts: ToasterToast[]
+}
+
+const toastTimeouts = new Map<string, ReturnType<typeof setTimeout>>()
+
+const addToRemoveQueue = (toastId: string) => {
+  if (toastTimeouts.has(toastId)) {
+    return
+  }
+
+  const timeout = setTimeout(() => {
+    toastTimeouts.delete(toastId)
+    dispatch({
+      type: "REMOVE_TOAST",
+      toastId: toastId,
+    })
+  }, TOAST_REMOVE_DELAY)
+
+  toastTimeouts.set(toastId, timeout)
+}
+
+export const reducer = (state: State, action: Action): State => {
+  switch (action.type) {
+    case "ADD_TOAST":
+      return {
+        ...state,
+        toasts: [action.toast, ...state.toasts].slice(0, TOAST_LIMIT),
+      }
+
+    case "UPDATE_TOAST":
+      return {
+        ...state,
+        toasts: state.toasts.map((t) =>
+          t.id === action.toast.id ? { ...t, ...action.toast } : t
+        ),
+      }
+
+    case "DISMISS_TOAST": {
+      const { toastId } = action
+
+      if (toastId) {
+        addToRemoveQueue(toastId)
+      } else {
+        state.toasts.forEach((toast) => {
+          addToRemoveQueue(toast.id)
+        })
+      }
+
+      return {
+        ...state,
+        toasts: state.toasts.map((t) =>
+          t.id === toastId || toastId === undefined
+            ? {
+                ...t,
+                open: false,
+              }
+            : t
+        ),
+      }
+    }
+    case "REMOVE_TOAST":
+      if (action.toastId === undefined) {
+        return {
+          ...state,
+          toasts: [],
+        }
+      }
+      return {
+        ...state,
+        toasts: state.toasts.filter((t) => t.id !== action.toastId),
+      }
+  }
+}
+
+const listeners: Array<(state: State) => void> = []
+
+let memoryState: State = { toasts: [] }
+
+function dispatch(action: Action) {
+  memoryState = reducer(memoryState, action)
+  listeners.forEach((listener) => {
+    listener(memoryState)
+  })
+}
+
+type Toast = Omit<ToasterToast, "id">
+
+function toast({ ...props }: Toast) {
+  const id = genId()
+
+  const update = (props: ToasterToast) =>
+    dispatch({
+      type: "UPDATE_TOAST",
+      toast: { ...props, id },
+    })
+  const dismiss = () => dispatch({ type: "DISMISS_TOAST", toastId: id })
+
+  dispatch({
+    type: "ADD_TOAST",
+    toast: {
+      ...props,
+      id,
+      open: true,
+      onOpenChange: (open) => {
+        if (!open) dismiss()
+      },
+    },
+  })
+
+  return {
+    id: id,
+    dismiss,
+    update,
+  }
+}
+
+function useToast() {
+  const [state, setState] = React.useState<State>(memoryState)
+
+  React.useEffect(() => {
+    listeners.push(setState)
+    return () => {
+      const index = listeners.indexOf(setState)
+      if (index > -1) {
+        listeners.splice(index, 1)
+      }
+    }
+  }, [state])
+
+  return {
+    ...state,
+    toast,
+    dismiss: (toastId?: string) => dispatch({ type: "DISMISS_TOAST", toastId }),
+  }
+}
+
+export { useToast, toast }
+
+============================================================
+FILE: client/src/pages/AdminsPage.tsx
+============================================================
+export function AdminsPage() {
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-3xl font-bold tracking-tight">Admin Management</h1>
+        <p className="text-muted-foreground">Manage admin accounts and permissions</p>
+      </div>
+      <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-8">
+        <p className="text-muted-foreground">Admin management interface coming soon...</p>
+      </div>
+    </div>
+  )
+}
+
+============================================================
+FILE: client/src/pages/BroadcastsPage.tsx
+============================================================
+export function BroadcastsPage() {
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-3xl font-bold tracking-tight">Broadcasts</h1>
+        <p className="text-muted-foreground">Send messages to your bot users</p>
+      </div>
+      <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-8">
+        <p className="text-muted-foreground">Broadcast management interface coming soon...</p>
+      </div>
+    </div>
+  )
+}
+
+============================================================
+FILE: client/src/pages/DashboardPage.tsx
+============================================================
+import { useQuery } from '@tanstack/react-query'
+import { defaultQueryFn } from '@/lib/queryClient'
+import { LoadingSpinner } from '@/components/ui/loading-spinner'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { formatNumber, formatPercentage } from '@/lib/utils'
+import { Users, Mail, TrendingUp, UserPlus, BarChart } from 'lucide-react'
+
+export function DashboardPage() {
+  const { data: dashboardData, isLoading } = useQuery({
+    queryKey: ['/api/dashboard/stats'],
+    queryFn: defaultQueryFn,
+  })
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center p-8">
+        <LoadingSpinner size="lg" />
+      </div>
+    )
+  }
+
+  if (!dashboardData) {
+    return (
+      <div className="p-8">
+        <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
+        <p className="text-muted-foreground">Failed to load dashboard data.</p>
+      </div>
+    )
+  }
+
+  const stats = [
+    {
+      title: "Total Users",
+      value: formatNumber(dashboardData.totalUsers || 0),
+      change: formatPercentage(dashboardData.trends?.newUsers || 0),
+      icon: Users,
+      trend: dashboardData.trends?.newUsers > 0 ? 'positive' : dashboardData.trends?.newUsers < 0 ? 'negative' : 'neutral'
+    },
+    {
+      title: "Email Checks",
+      value: formatNumber(dashboardData.currentPeriodStats?.totalChecks || 0),
+      change: formatPercentage(dashboardData.trends?.totalChecks || 0),
+      icon: Mail,
+      trend: dashboardData.trends?.totalChecks > 0 ? 'positive' : dashboardData.trends?.totalChecks < 0 ? 'negative' : 'neutral'
+    },
+    {
+      title: "Valid Emails",
+      value: formatNumber(dashboardData.currentPeriodStats?.validEmails || 0),
+      change: formatPercentage(dashboardData.trends?.validEmails || 0),
+      icon: BarChart,
+      trend: dashboardData.trends?.validEmails > 0 ? 'positive' : dashboardData.trends?.validEmails < 0 ? 'negative' : 'neutral'
+    },
+    {
+      title: "New Referrals",
+      value: formatNumber(dashboardData.currentPeriodStats?.newReferrals || 0),
+      change: formatPercentage(dashboardData.trends?.newReferrals || 0),
+      icon: UserPlus,
+      trend: dashboardData.trends?.newReferrals > 0 ? 'positive' : dashboardData.trends?.newReferrals < 0 ? 'negative' : 'neutral'
+    }
+  ]
+
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
+        <p className="text-muted-foreground">
+          Overview of your SpookMail bot performance
+        </p>
+      </div>
+
+      {/* Stats Grid */}
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        {stats.map((stat) => (
+          <Card key={stat.title} className="spooky-card">
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-sm font-medium">{stat.title}</CardTitle>
+              <stat.icon className="h-4 w-4 text-muted-foreground" />
+            </CardHeader>
+            <CardContent>
+              <div className="text-2xl font-bold">{stat.value}</div>
+              <div className={`text-xs flex items-center ${
+                stat.trend === 'positive' ? 'text-green-500' : 
+                stat.trend === 'negative' ? 'text-red-500' : 'text-muted-foreground'
+              }`}>
+                <TrendingUp className="h-3 w-3 mr-1" />
+                {stat.change} from last period
+              </div>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+
+      {/* Recent Activity */}
+      <div className="grid gap-4 md:grid-cols-2">
+        <Card className="spooky-card">
+          <CardHeader>
+            <CardTitle>Recent Email Checks</CardTitle>
+            <CardDescription>Latest email verifications</CardDescription>
+          </CardHeader>
+          <CardContent>
+            {dashboardData.recentChecks && dashboardData.recentChecks.length > 0 ? (
+              <div className="space-y-3">
+                {dashboardData.recentChecks.slice(0, 5).map((check: any) => (
+                  <div key={check.id} className="flex items-center justify-between">
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-medium truncate">{check.email}</p>
+                      <p className="text-xs text-muted-foreground">
+                        Quality: {check.qualityScore}/100
+                      </p>
+                    </div>
+                    <div className={`text-xs px-2 py-1 rounded ${
+                      check.isValid ? 'bg-green-500/10 text-green-500' : 'bg-red-500/10 text-red-500'
+                    }`}>
+                      {check.isValid ? 'Valid' : 'Invalid'}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-muted-foreground text-sm">No recent checks</p>
+            )}
+          </CardContent>
+        </Card>
+
+        <Card className="spooky-card">
+          <CardHeader>
+            <CardTitle>Weekly Activity</CardTitle>
+            <CardDescription>Activity over the last 7 days</CardDescription>
+          </CardHeader>
+          <CardContent>
+            {dashboardData.dailyStats && dashboardData.dailyStats.length > 0 ? (
+              <div className="space-y-3">
+                {dashboardData.dailyStats.map((day: any, index: number) => (
+                  <div key={index} className="flex items-center justify-between">
+                    <div className="text-sm">
+                      {new Date(day.date).toLocaleDateString('en-US', { 
+                        month: 'short', 
+                        day: 'numeric' 
+                      })}
+                    </div>
+                    <div className="flex gap-4 text-xs">
+                      <span>{day.newUsers} users</span>
+                      <span>{day.totalChecks} checks</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-muted-foreground text-sm">No activity data</p>
+            )}
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  )
+}
+
+============================================================
+FILE: client/src/pages/EmailChecksPage.tsx
+============================================================
+export function EmailChecksPage() {
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-3xl font-bold tracking-tight">Email Checks</h1>
+        <p className="text-muted-foreground">View and analyze email verification history</p>
+      </div>
+      <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-8">
+        <p className="text-muted-foreground">Email checks interface coming soon...</p>
+      </div>
+    </div>
+  )
+}
+
+============================================================
+FILE: client/src/pages/LoginPage.tsx
+============================================================
+import { useState } from 'react'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
+import { apiRequest } from '@/lib/queryClient'
+import { useToast } from '@/hooks/use-toast'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import { LoadingSpinner } from '@/components/ui/loading-spinner'
+import { Eye, EyeOff, Skull, Moon, Sun } from 'lucide-react'
+import { useTheme } from '@/components/theme-provider'
+
+export function LoginPage() {
+  const [username, setUsername] = useState('')
+  const [password, setPassword] = useState('')
+  const [showPassword, setShowPassword] = useState(false)
+  const { toast } = useToast()
+  const queryClient = useQueryClient()
+  const { theme, setTheme } = useTheme()
+
+  const loginMutation = useMutation({
+    mutationFn: async (credentials: { username: string; password: string }) => {
+      return apiRequest('/api/auth/login', {
+        method: 'POST',
+        data: credentials
+      })
+    },
+    onSuccess: () => {
+      toast({
+        title: "Welcome back!",
+        description: "Successfully logged into SpookMail Admin Panel",
+      })
+      queryClient.invalidateQueries({ queryKey: ['/api/auth/me'] })
+    },
+    onError: (error: any) => {
+      toast({
+        title: "Login failed",
+        description: error?.response?.data?.message || "Invalid credentials",
+        variant: "destructive",
+      })
+    },
+  })
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!username.trim() || !password.trim()) {
+      toast({
+        title: "Missing information",
+        description: "Please enter both username and password",
+        variant: "destructive",
+      })
+      return
+    }
+    loginMutation.mutate({ username, password })
+  }
+
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark")
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-primary/5 flex items-center justify-center p-4">
+      <div className="absolute top-4 right-4">
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={toggleTheme}
+          className="spooky-shadow"
+        >
+          {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+        </Button>
+      </div>
+      
+      <div className="w-full max-w-md">
+        <div className="spooky-card rounded-lg p-8 space-y-6">
+          {/* Header */}
+          <div className="text-center space-y-2">
+            <div className="mx-auto w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center spooky-shadow">
+              <Skull className="h-8 w-8 text-primary" />
+            </div>
+            <h1 className="text-2xl font-bold text-foreground">SpookMail Admin</h1>
+            <p className="text-muted-foreground">
+              Enter your credentials to access the admin panel
+            </p>
+          </div>
+
+          {/* Login Form */}
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div className="space-y-2">
+              <Label htmlFor="username">Username</Label>
+              <Input
+                id="username"
+                type="text"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                placeholder="Enter your username"
+                disabled={loginMutation.isPending}
+                className="transition-all duration-200 focus:spooky-shadow"
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="password">Password</Label>
+              <div className="relative">
+                <Input
+                  id="password"
+                  type={showPassword ? "text" : "password"}
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="Enter your password"
+                  disabled={loginMutation.isPending}
+                  className="pr-10 transition-all duration-200 focus:spooky-shadow"
+                />
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="sm"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 h-6 w-6 p-0"
+                  onClick={() => setShowPassword(!showPassword)}
+                  disabled={loginMutation.isPending}
+                >
+                  {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+                </Button>
+              </div>
+            </div>
+
+            <Button
+              type="submit"
+              className="w-full spooky-gradient hover:opacity-90 transition-all duration-200"
+              disabled={loginMutation.isPending}
+            >
+              {loginMutation.isPending ? (
+                <>
+                  <LoadingSpinner size="sm" className="mr-2" />
+                  Logging in...
+                </>
+              ) : (
+                'Login'
+              )}
+            </Button>
+          </form>
+
+          {/* Footer */}
+          <div className="text-center text-sm text-muted-foreground">
+            <p>SpookMail Telegram Bot Admin Panel</p>
+            <p className="mt-1">Secure • Professional • Spooky</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+============================================================
+FILE: client/src/pages/SettingsPage.tsx
+============================================================
+export function SettingsPage() {
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-3xl font-bold tracking-tight">Bot Settings</h1>
+        <p className="text-muted-foreground">Configure bot behavior and parameters</p>
+      </div>
+      <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-8">
+        <p className="text-muted-foreground">Bot settings interface coming soon...</p>
+      </div>
+    </div>
+  )
+}
+
+============================================================
+FILE: client/src/pages/UsersPage.tsx
+============================================================
+export function UsersPage() {
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-3xl font-bold tracking-tight">Users Management</h1>
+        <p className="text-muted-foreground">Manage Telegram bot users and their settings</p>
+      </div>
+      <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-8">
+        <p className="text-muted-foreground">Users management interface coming soon...</p>
+      </div>
+    </div>
+  )
+}
+
+============================================================
+FILE: client/src/App.tsx
+============================================================
+import { Route, Switch } from 'wouter'
+import { useAuth } from './hooks/useAuth'
+import { LoginPage } from './pages/LoginPage'
+import { DashboardLayout } from './components/layout/DashboardLayout'
+import { DashboardPage } from './pages/DashboardPage'
+import { UsersPage } from './pages/UsersPage'
+import { EmailChecksPage } from './pages/EmailChecksPage'
+import { BroadcastsPage } from './pages/BroadcastsPage'
+import { SettingsPage } from './pages/SettingsPage'
+import { AdminsPage } from './pages/AdminsPage'
+import { LoadingSpinner } from './components/ui/loading-spinner'
+
+function App() {
+  const { isAuthenticated, isLoading } = useAuth()
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-background">
+        <div className="text-center">
+          <LoadingSpinner className="mx-auto mb-4" size="lg" />
+          <p className="text-muted-foreground">Loading SpookMail Admin Panel...</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (!isAuthenticated) {
+    return <LoginPage />
+  }
+
+  return (
+    <DashboardLayout>
+      <Switch>
+        <Route path="/" component={DashboardPage} />
+        <Route path="/users" component={UsersPage} />
+        <Route path="/email-checks" component={EmailChecksPage} />
+        <Route path="/broadcasts" component={BroadcastsPage} />
+        <Route path="/settings" component={SettingsPage} />
+        <Route path="/admins" component={AdminsPage} />
+        <Route>
+          <div className="p-8 text-center">
+            <h1 className="text-2xl font-bold mb-4">404 - Page Not Found</h1>
+            <p className="text-muted-foreground">The requested page could not be found.</p>
+          </div>
+        </Route>
+      </Switch>
+    </DashboardLayout>
+  )
+}
+
+export default App
+
+============================================================
+FILE: client/src/index.css
+============================================================
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 282.9 100% 67.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 282.9 100% 67.3%;
+    --radius: 0.5rem;
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 282.9 100% 67.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 282.9 100% 67.3%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Spooky custom styles */
+.spooky-gradient {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+}
+
+.spooky-card {
+  @apply bg-card/50 backdrop-blur-sm border border-border/50;
+}
+
+.spooky-shadow {
+  box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+}
+
+/* Loading animations */
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px hsl(var(--primary) / 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.6);
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.8);
+}
+
+============================================================
+FILE: client/src/main.tsx
+============================================================
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import App from './App.tsx'
+import './index.css';
+import { ThemeProvider } from './components/theme-provider'
+import { Toaster } from './components/ui/toaster'
+import { defaultQueryFn } from './lib/queryClient'
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      queryFn: defaultQueryFn,
+      retry: false,
+      refetchOnWindowFocus: false,
+    },
+  },
+})
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider defaultTheme="dark" storageKey="spookmail-theme">
+        <App />
+        <Toaster />
+      </ThemeProvider>
+    </QueryClientProvider>
+  </StrictMode>
+)
+
+============================================================
+FILE: client/postcss.config.js
+============================================================
+module.exports = {
+  plugins: {
+    '@tailwindcss/postcss': {},
+    autoprefixer: {},
+  },
+};
+
+
+============================================================
+FILE: client/tailwind.config.js
+============================================================
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
+    },
+    extend: {
+      colors: {
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      keyframes: {
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
+    },
+  },
+  plugins: [],
+};
+
+
+============================================================
+FILE: client/vite.config.js
+============================================================
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
+
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+    },
+  },
+  server: {
+    port: 3000,
+    host: '0.0.0.0', // يضمن عمل Vite داخل Docker
+  },
+});
+
+
+============================================================
+FILE: drizzle/meta/_journal.json
+============================================================
+{"entries":[]}
+
+============================================================
+FILE: scripts/fix-docker.sh
+============================================================
+#!/bin/bash
+
+echo "🔧 Fixing Docker authentication issue..."
+
+# Disable buildx to avoid authentication errors
+export DOCKER_BUILDKIT=0
+export COMPOSE_DOCKER_CLI_BUILD=0
+
+# Stop any running containers
+echo "🛑 Stopping existing containers..."
+docker-compose down 2>/dev/null || true
+
+# Clear Docker cache if needed
+echo "🧹 Clearing Docker cache..."
+docker system prune -f 2>/dev/null || true
+
+# Build without buildx
+echo "🏗️  Building with legacy Docker build..."
+DOCKER_BUILDKIT=0 COMPOSE_DOCKER_CLI_BUILD=0 docker-compose build --no-cache
+
+# Start services
+echo "🚀 Starting services..."
+DOCKER_BUILDKIT=0 COMPOSE_DOCKER_CLI_BUILD=0 docker-compose up -d
+
+# Check status
+echo "📊 Checking service status..."
+sleep 5
+docker-compose ps
+
+echo "✅ Done! If you see services running above, your SpookMail bot is ready!"
+echo "🌐 Admin Panel: http://localhost:3000"
+echo "👤 Username: admin"
+echo "🔐 Password: Check your .env file"
+
+============================================================
+FILE: scripts/fix-postcss-docker.sh
+============================================================
+#!/bin/bash
+
+echo "🔧 Fixing PostCSS Docker issue..."
+
+# Stop any running containers
+echo "🛑 Stopping existing containers..."
+docker-compose down 2>/dev/null || true
+
+# Remove the problematic volumes
+echo "🧹 Removing node_modules volume..."
+docker volume rm telegramassistant_node_modules_cache 2>/dev/null || true
+
+# Clear Docker cache
+echo "🧹 Clearing Docker cache..."
+docker system prune -f 2>/dev/null || true
+
+# Rebuild the image
+echo "🏗️  Rebuilding Docker image..."
+docker-compose build --no-cache app
+
+# Start services
+echo "🚀 Starting services..."
+docker-compose up -d
+
+# Check status
+echo "📊 Checking service status..."
+sleep 10
+docker-compose ps
+
+# Show logs to verify PostCSS is working
+echo "📋 Checking app logs for PostCSS errors..."
+docker-compose logs app | tail -20
+
+echo "✅ Done! Check the logs above for any PostCSS errors."
+echo "🌐 Frontend: http://localhost:3000"
+echo "🔧 Backend: http://localhost:5000"
+
+============================================================
+FILE: scripts/setup-docker.sh
+============================================================
+#!/bin/bash
+
+# SpookMail Docker Setup Script
+echo "🎃 Setting up SpookMail Telegram Bot with Docker..."
+
+# Check if Docker is installed
+if ! command -v docker &> /dev/null; then
+    echo "❌ Docker is not installed. Please install Docker first."
+    exit 1
+fi
+
+# Check if Docker Compose is installed
+if ! command -v docker-compose &> /dev/null; then
+    echo "❌ Docker Compose is not installed. Please install Docker Compose first."
+    exit 1
+fi
+
+# Copy environment file if it doesn't exist
+if [ ! -f .env ]; then
+    echo "📄 Creating .env file from template..."
+    cp .env.example .env
+    echo "⚠️  Please edit .env file with your actual API keys and credentials!"
+    echo ""
+    echo "Required configurations:"
+    echo "- TELEGRAM_BOT_TOKEN (from @BotFather)"
+    echo "- MAILBOXLAYER_API_KEY (from mailboxlayer.com)"
+    echo "- ADMIN_PASSWORD (secure password for admin panel)"
+    echo ""
+    read -p "Press Enter after updating .env file..."
+fi
+
+# Build and start services
+echo "🏗️  Building and starting services..."
+docker-compose up -d --build
+
+# Wait for services to be ready
+echo "⏳ Waiting for services to start..."
+sleep 15
+
+# Check if services are running
+if docker-compose ps | grep -q "Up"; then
+    echo "✅ SpookMail services are running!"
+    echo ""
+    echo "🌐 Admin Panel: http://localhost:3000"
+    echo "👤 Default Username: admin"
+    echo "🔐 Default Password: (check your .env file)"
+    echo ""
+    echo "🤖 Don't forget to:"
+    echo "1. Start your Telegram bot by messaging it"
+    echo "2. Use /start command to initialize"
+    echo "3. Access admin panel to configure settings"
+    echo ""
+    echo "📊 View logs: docker-compose logs -f"
+    echo "🛑 Stop services: docker-compose down"
+else
+    echo "❌ Failed to start services. Check logs:"
+    echo "docker-compose logs"
+fi
+
+============================================================
+FILE: .replit
+============================================================
+modules = ["nodejs-20", "postgresql-16"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Start Application"
+
+[[workflows.workflow]]
+name = "Setup Database"
+author = 45326607
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sudo service postgresql start"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sudo -u postgres createuser -s torevar || echo \"User already exists\""
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sudo -u postgres createdb telegram_bot || echo \"Database already exists\""
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sudo -u postgres psql -c \"ALTER USER torevar PASSWORD 'hesoyam';\""
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PGPASSWORD=hesoyam psql -U torevar -d telegram_bot -f init.sql"
+
+[[workflows.workflow]]
+name = "Start Application"
+author = 45326607
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm install --legacy-peer-deps"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run build"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm start"
+
+
+============================================================
+FILE: package.json
+============================================================
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "dev:client": "cd client && vite",
+    "dev:server": "cd server && tsx index.ts",
+    "build": "cd client && vite build",
+    "preview": "cd client && vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hookform/resolvers": "^5.1.1",
+    "@neondatabase/serverless": "^1.0.1",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-dropdown-menu": "^2.1.15",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-select": "^2.2.5",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-switch": "^1.2.5",
+    "@radix-ui/react-toast": "^1.2.14",
+    "@tanstack/react-query": "^5.83.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/express-session": "^1.18.2",
+    "@types/node": "^24.0.15",
+    "@types/pg": "^8.15.4",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.18.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "concurrently": "^9.2.0",
+    "connect-pg-simple": "^10.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "drizzle-kit": "^0.18.1",
+    "drizzle-orm": "^0.44.3",
+    "drizzle-zod": "^0.8.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "lucide-react": "^0.525.0",
+    "pg": "^8.16.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.60.0",
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^3.3.1",
+    "telegraf": "^4.16.3",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0",
+    "vite": "^6.3.5",
+    "wouter": "^3.7.1",
+    "ws": "^8.18.3",
+    "zod": "^3.25.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "path": "^0.12.7",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
+
+
+============================================================
+FILE: README.md
+============================================================
+# SpookMail - Telegram Email Verification Bot
+
+A professional Telegram bot for email verification with a spooky-themed admin panel, referral system, and usage limits. Built with Node.js, React, PostgreSQL, and Docker.
+
+## Features
+
+### 🎃 Telegram Bot
+- **Email Verification**: Accurate email validation using mailboxlayer.com API
+- **Usage Limits**: 5 free checks every 72 hours per user
+- **Referral System**: Unique invite links with bonus checks for referrals
+- **User Management**: Automatic user registration and tracking
+- **Interactive Commands**: User-friendly bot commands and inline keyboards
+
+### 👻 Admin Panel
+- **Spooky Theme**: Dark/light mode with Halloween-inspired design
+- **Dashboard**: Real-time statistics and performance metrics
+- **User Management**: View and manage Telegram bot users
+- **Email Check History**: Detailed verification logs and analytics
+- **Broadcast System**: Send messages to all users or targeted audiences
+- **Bot Settings**: Configure bot behavior and parameters
+- **Admin Accounts**: Multi-admin support with role-based access
+
+### 🔒 Security & Performance
+- Session-based authentication for admin panel
+- Rate limiting and API error handling
+- Secure password hashing with bcrypt
+- PostgreSQL database with optimized queries
+- Docker containerization for easy deployment
+
+## Quick Start with Docker Compose
+
+### Prerequisites
+- Docker and Docker Compose installed
+- Telegram Bot Token (from [@BotFather](https://t.me/botfather))
+- Mailboxlayer API Key (from [mailboxlayer.com](https://mailboxlayer.com))
+
+### Setup Instructions
+
+1. **Clone and Setup**
+   ```bash
+   git clone <repository-url>
+   cd spookmail-bot
+   cp .env.example .env
+   ```
+
+2. **Configure Environment**
+   Edit `.env` file with your credentials:
+   ```env
+   TELEGRAM_BOT_TOKEN=your-bot-token-here
+   MAILBOXLAYER_API_KEY=your-api-key-here
+   ADMIN_PASSWORD=your-secure-password
+   ```
+
+3. **Start with Docker Compose**
+   ```bash
+   docker-compose up -d
+   ```
+
+4. **Access Admin Panel**
+   - URL: http://localhost:3000
+   - Username: `admin`
+   - Password: (from your .env file)
+
+### Bot Commands
+- `/start` - Start the bot and show welcome message
+- `/check` - Begin email verification process
+- `/stats` - View personal usage statistics
+- `/invite` - Get referral link for bonus checks
+- `/help` - Show help and available commands
+
+## Development Setup
+
+### Without Docker
+
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Setup Database**
+   ```bash
+   # Start PostgreSQL (local installation required)
+   npm run db:push  # Run database migrations
+   ```
+
+3. **Start Development Server**
+   ```bash
+   npm run dev
+   ```
+
+### Environment Variables
+
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `DATABASE_URL` | PostgreSQL connection string | Yes |
+| `TELEGRAM_BOT_TOKEN` | Bot token from BotFather | Yes |
+| `MAILBOXLAYER_API_KEY` | Email verification API key | Yes |
+| `SESSION_SECRET` | Secure session encryption key | Yes |
+| `ADMIN_USERNAME` | Default admin username | No (default: admin) |
+| `ADMIN_PASSWORD` | Default admin password | No (default: spooky123) |
+| `NODE_ENV` | Environment mode | No (default: development) |
+| `PORT` | Server port | No (default: 3000) |
+
+## API Endpoints
+
+### Authentication
+- `POST /api/auth/login` - Admin login
+- `POST /api/auth/logout` - Admin logout
+- `GET /api/auth/me` - Get current admin info
+
+### Dashboard
+- `GET /api/dashboard/stats` - Dashboard statistics
+
+### Users
+- `GET /api/users` - List all users
+- `PATCH /api/users/:id` - Update user settings
+
+### Email Checks
+- `GET /api/email-checks` - Email verification history
+
+### Broadcasts
+- `GET /api/broadcasts` - List broadcasts
+- `POST /api/broadcasts` - Create broadcast
+- `POST /api/broadcasts/:id/send` - Send broadcast
+
+### Bot Settings
+- `GET /api/bot-settings` - Get bot configuration
+- `PUT /api/bot-settings/:key` - Update bot setting
+
+## Architecture
+
+### Backend Stack
+- **Node.js** with Express.js
+- **PostgreSQL** with Drizzle ORM
+- **Telegraf** for Telegram Bot API
+- **bcryptjs** for password hashing
+- **express-session** for authentication
+
+### Frontend Stack
+- **React** with TypeScript
+- **Vite** for build tooling
+- **TailwindCSS** for styling
+- **TanStack Query** for API state management
+- **Wouter** for routing
+- **Radix UI** for components
+
+### Database Schema
+- **admins** - Admin user accounts
+- **telegram_users** - Bot user data and referrals
+- **email_checks** - Email verification history
+- **bot_settings** - Configurable bot parameters
+- **broadcasts** - Message broadcast history
+- **daily_stats** - Usage analytics
+
+## Customization
+
+### Bot Messages
+Edit bot messages in `server/services/telegramBot.ts`:
+- Welcome message
+- Help text
+- Error messages
+- Command responses
+
+### Admin Panel Theme
+Customize the spooky theme in `client/src/index.css`:
+- Color scheme
+- Animations
+- Dark/light mode variants
+
+### Usage Limits
+Configure in the admin panel or environment:
+- Checks per cycle
+- Cycle duration
+- Referral bonuses
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Bot not responding**
+   - Check `TELEGRAM_BOT_TOKEN` is correct
+   - Ensure bot is started with `/start` command
+   - Check server logs for errors
+
+2. **Email verification fails**
+   - Verify `MAILBOXLAYER_API_KEY` is valid
+   - Check API rate limits and quotas
+   - Review network connectivity
+
+3. **Admin panel login issues**
+   - Confirm `ADMIN_USERNAME` and `ADMIN_PASSWORD`
+   - Check database connection
+   - Clear browser cookies
+
+4. **Database connection errors**
+   - Verify `DATABASE_URL` format
+   - Ensure PostgreSQL is running
+   - Check network connectivity
+
+### Logs
+- Application logs: `docker-compose logs app`
+- Database logs: `docker-compose logs postgres`
+- Real-time logs: `docker-compose logs -f`
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+For issues, questions, or feature requests:
+- Create an issue on the repository
+- Contact the development team
+- Check the troubleshooting section
+
+---
+
+**SpookMail** - Professional email verification with a spooky twist! 🎃👻
+
+============================================================
+FILE: replit.md
+============================================================
+# Telegram Email Verification Bot (SpookMail)
+
+## Overview
+A comprehensive Telegram bot for email verification with spooky-themed admin panel, referral system, and usage limits. Built with Node.js, Express, React, PostgreSQL, and Docker Compose for easy deployment.
+
+## Features Implemented
+- **Telegram Bot**: Full bot implementation with commands (/start, /check, /stats, /invite, /help)
+- **Email Verification**: Integration with mailboxlayer.com API
+- **Admin Panel**: React-based dashboard with authentication
+- **Spooky Theme**: Dark/light mode with Halloween-inspired design
+- **Referral System**: Unique invite links with bonus checks
+- **Usage Limits**: 5 checks per 72 hours with referral bonuses
+- **Statistics Dashboard**: Real-time analytics and user metrics
+- **Broadcast System**: Send messages to all users or targeted groups
+- **User Management**: View and manage Telegram bot users
+- **Database**: PostgreSQL with Drizzle ORM
+
+## Project Architecture
+- **Backend**: Node.js with Express.js, Telegraf for bot
+- **Frontend**: React with TypeScript, Vite, TailwindCSS
+- **Database**: PostgreSQL with comprehensive schema
+- **Authentication**: Session-based with bcrypt password hashing
+- **Deployment**: Docker Compose with hot reload for development
+
+## User Preferences
+- Docker Compose setup for local Windows development requested
+- Professional spooky theme design implemented
+- Scalable architecture with security focus
+- Comprehensive documentation provided
+- Local deployment on Windows OS preferred over cloud platforms
+
+## Recent Changes
+- 2025-01-21: Complete project architecture implemented
+- 2025-01-21: Docker Compose configuration with PostgreSQL
+- 2025-01-21: Admin panel with spooky theme completed
+- 2025-01-21: Telegram bot service with all commands
+- 2025-01-21: Email verification service integrated
+- 2025-01-21: Database schema and storage layer
+- 2025-01-21: Authentication and authorization system
+- 2025-01-21: Comprehensive setup scripts and documentation
+
+## Quick Start Guide
+1. Copy .env.example to .env and configure API keys
+2. Run: chmod +x scripts/setup-docker.sh
+3. Run: ./scripts/setup-docker.sh
+4. Access admin panel at http://localhost:3000
+5. Start Telegram bot conversation
+
+============================================================
+FILE: SETUP_INSTRUCTIONS.md
+============================================================
+# 🎃 SpookMail Setup Instructions
+
+## Prerequisites
+
+Before starting, ensure you have:
+
+1. **Docker & Docker Compose** installed
+2. **Telegram Bot Token** from [@BotFather](https://t.me/botfather)
+3. **Mailboxlayer API Key** from [mailboxlayer.com](https://mailboxlayer.com)
+
+## Step-by-Step Setup
+
+### 1. Get Your API Keys
+
+**Telegram Bot Token:**
+1. Message [@BotFather](https://t.me/botfather) on Telegram
+2. Create a new bot with `/newbot`
+3. Copy the token (format: `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`)
+
+**Mailboxlayer API Key:**
+1. Sign up at [mailboxlayer.com](https://mailboxlayer.com)
+2. Go to dashboard and copy your API key
+3. Free tier provides 1,000 requests/month
+
+### 2. Configure Environment
+
+```bash
+# Copy the environment template
+cp .env.example .env
+
+# Edit .env with your keys
+nano .env  # or use any text editor
+```
+
+**Required .env Configuration:**
+```env
+# Your actual bot token from BotFather
+TELEGRAM_BOT_TOKEN=123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
+
+# Your actual API key from mailboxlayer
+MAILBOXLAYER_API_KEY=your_actual_api_key_here
+
+# Set a secure admin password
+ADMIN_PASSWORD=YourSecurePassword123
+
+# Optional: change admin username (default: admin)
+ADMIN_USERNAME=admin
+
+# Keep these as-is for Docker setup
+DATABASE_URL=postgresql://bot_user:bot_password@postgres:5432/telegram_bot
+SESSION_SECRET=your-super-secret-session-key-change-in-production
+NODE_ENV=development
+PORT=3000
+```
+
+### 3. Launch with Docker
+
+**If you get Docker authentication errors, use the fix script:**
+```bash
+# Make scripts executable
+chmod +x scripts/*.sh
+
+# Run Docker fix (resolves buildx authentication issues)
+./scripts/fix-docker.sh
+```
+
+**Or run the standard setup:**
+```bash
+# Run automated setup
+./scripts/setup-docker.sh
+```
+
+**Manual method (if scripts don't work):**
+```bash
+# Disable buildx to avoid authentication errors
+export DOCKER_BUILDKIT=0
+export COMPOSE_DOCKER_CLI_BUILD=0
+
+# Build and start all services
+docker-compose up -d --build
+
+# Check if everything is running
+docker-compose ps
+
+# View logs if needed
+docker-compose logs -f
+```
+
+### 4. Access Your Services
+
+- **Admin Panel**: http://localhost:3000
+- **Database**: localhost:5432 (for direct access)
+- **Telegram Bot**: Message your bot on Telegram
+
+### 5. First Login
+
+1. Open http://localhost:3000
+2. Login with:
+   - Username: `admin` (or what you set in .env)
+   - Password: Your password from .env file
+3. You should see the spooky-themed dashboard
+
+### 6. Test Your Bot
+
+1. Find your bot on Telegram (search for the name you gave BotFather)
+2. Send `/start` to initialize
+3. Send any email address to test verification
+4. Check admin panel for user activity
+
+## Bot Commands
+
+Your users can use these commands:
+
+- `/start` - Initialize bot and show welcome
+- `/check` - Start email verification process
+- `/stats` - View personal usage statistics
+- `/invite` - Get referral link for bonus checks
+- `/help` - Show help and available commands
+
+## Admin Panel Features
+
+- **Dashboard**: User statistics and activity charts
+- **Users**: Manage Telegram bot users and their limits
+- **Email Checks**: View verification history and analytics
+- **Broadcasts**: Send messages to all users or specific groups
+- **Settings**: Configure bot behavior and limits
+- **Admins**: Manage admin accounts (multi-admin support)
+
+## Troubleshooting
+
+### Common Issues:
+
+**1. Bot doesn't respond:**
+```bash
+# Check bot service logs
+docker-compose logs app
+
+# Verify your bot token in .env
+grep TELEGRAM_BOT_TOKEN .env
+```
+
+**2. Email verification fails:**
+```bash
+# Check your mailboxlayer key
+grep MAILBOXLAYER_API_KEY .env
+
+# View API errors in logs
+docker-compose logs app | grep -i email
+```
+
+**3. Cannot access admin panel:**
+```bash
+# Check if services are running
+docker-compose ps
+
+# Restart if needed
+docker-compose restart
+```
+
+**4. Database connection issues:**
+```bash
+# Check PostgreSQL status
+docker-compose logs postgres
+
+# Restart database
+docker-compose restart postgres
+```
+
+### Useful Commands:
+
+```bash
+# View all service logs
+docker-compose logs
+
+# View specific service logs
+docker-compose logs app
+docker-compose logs postgres
+
+# Restart all services
+docker-compose restart
+
+# Stop all services
+docker-compose down
+
+# Rebuild and restart
+docker-compose up -d --build
+
+# Access database directly
+docker-compose exec postgres psql -U bot_user -d telegram_bot
+```
+
+## Configuration Options
+
+### Bot Settings (via Admin Panel):
+
+- **Checks per cycle**: How many free checks users get
+- **Cycle duration**: How often limits reset (default: 72 hours)
+- **Referral bonus**: Extra checks for successful referrals
+- **Welcome message**: Customize bot greeting
+- **Bot status**: Enable/disable bot responses
+
+### Usage Limits:
+
+- **Free tier**: 5 checks per 72 hours
+- **Referral bonus**: +5 checks per successful referral
+- **No limit on referrals**: Users can earn unlimited bonus checks
+
+### Email Verification:
+
+- **Quality scoring**: 0-100 based on multiple factors
+- **Disposable detection**: Identifies temporary/throwaway emails
+- **Catch-all detection**: Detects catch-all domains
+- **Format validation**: Checks email syntax
+- **MX record verification**: Confirms domain has mail server
+- **SMTP validation**: Tests actual email deliverability
+
+## Security Features
+
+- **Password hashing**: Admin passwords secured with bcrypt
+- **Session management**: Secure session-based authentication
+- **Rate limiting**: Built-in API request limits
+- **Input validation**: All user inputs validated and sanitized
+- **SQL injection protection**: Parameterized queries with Drizzle ORM
+- **CORS protection**: Configured for production security
+
+## Customization
+
+### Theme Customization:
+Edit `client/src/index.css` to modify:
+- Color schemes
+- Dark/light mode variants
+- Animations and effects
+- Spooky styling elements
+
+### Bot Messages:
+Edit `server/services/telegramBot.ts` to customize:
+- Welcome messages
+- Command responses
+- Error messages
+- Help text
+
+### API Integration:
+Modify `server/services/emailService.ts` to:
+- Add different email verification providers
+- Adjust quality scoring algorithms
+- Implement additional validation checks
+
+## Production Deployment
+
+For production, consider:
+
+1. **Environment Variables**:
+   - Set `NODE_ENV=production`
+   - Use strong `SESSION_SECRET`
+   - Secure database credentials
+
+2. **Database**:
+   - Use managed PostgreSQL service
+   - Enable SSL connections
+   - Set up regular backups
+
+3. **Security**:
+   - Use HTTPS/SSL certificates
+   - Configure firewall rules
+   - Enable request rate limiting
+   - Set up monitoring and logging
+
+4. **Scaling**:
+   - Use container orchestration (Kubernetes)
+   - Set up load balancing
+   - Configure auto-scaling
+   - Monitor resource usage
+
+## Support
+
+If you encounter issues:
+
+1. Check the troubleshooting section above
+2. Review the logs with `docker-compose logs`
+3. Verify your API keys are correct
+4. Ensure all required services are running
+5. Check the GitHub repository for updates
+
+---
+
+**Your SpookMail bot is now ready to haunt inboxes and verify emails!** 🎃👻
+
+============================================================
+FILE: tsconfig.json
+============================================================
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./client/src/*"],
+      "@shared/*": ["./shared/*"],
+      "@assets/*": ["./attached_assets/*"]
+    }
+  },
+  "include": ["client/src", "shared"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
+
+============================================================
+FILE: tsconfig.node.json
+============================================================
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["vite.config.ts"]
+}
+
+============================================================
+FILE: tsconfig.server.json
+============================================================
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmit": false,
+    "module": "CommonJS",
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": false,
+    "paths": {
+      "@shared/*": ["./shared/*"]
+    }
+  },
+  "include": ["server", "shared"],
+  "exclude": ["client", "dist"]
+}
+
+============================================================
+FILE: WINDOWS_SETUP.md
+============================================================
+# 🎃 SpookMail Windows Setup Guide
+
+This guide will help you set up the SpookMail Telegram bot on your Windows machine using Docker Compose.
+
+## Prerequisites
+
+### 1. Install Docker Desktop for Windows
+1. Download Docker Desktop from [docker.com](https://www.docker.com/products/docker-desktop)
+2. Install and restart your computer
+3. Start Docker Desktop
+4. Verify installation:
+   ```cmd
+   docker --version
+   docker-compose --version
+   ```
+
+### 2. Get Your API Keys
+
+**Telegram Bot Token:**
+1. Open Telegram and message [@BotFather](https://t.me/botfather)
+2. Send `/newbot` command
+3. Follow the prompts to create your bot
+4. Copy the token (format: `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`)
+
+**Mailboxlayer API Key:**
+1. Sign up at [mailboxlayer.com](https://mailboxlayer.com)
+2. Go to your dashboard
+3. Copy your API key (free tier gives 1,000 requests/month)
+
+## Setup Instructions
+
+### Step 1: Download and Configure
+
+1. **Extract your project files** to a folder like `C:\SpookMail\`
+
+2. **Copy environment file:**
+   ```cmd
+   copy .env.example .env
+   ```
+
+3. **Edit .env file** with Notepad or any text editor:
+   ```env
+   # Replace with your actual bot token
+   TELEGRAM_BOT_TOKEN=123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
+   
+   # Replace with your actual API key
+   MAILBOXLAYER_API_KEY=your_actual_api_key_here
+   
+   # Set a secure admin password
+   ADMIN_PASSWORD=YourSecurePassword123
+   
+   # Keep these settings for local Windows development
+   DATABASE_URL=postgresql://torevar:hesoyam@postgres:5432/telegram_bot
+   ADMIN_USERNAME=admin
+   SESSION_SECRET=spookmail-super-secret-session-key-for-windows
+   NODE_ENV=development
+   PORT=3000
+   ```
+
+### Step 2: Run the Setup
+
+**Option A: Automated Setup (Recommended)**
+```cmd
+# Double-click the setup file
+scripts\setup-windows.bat
+```
+
+**Option B: Manual Setup**
+```cmd
+# Open Command Prompt in your project folder
+cd C:\SpookMail
+
+# Set environment variables to avoid buildx issues
+set DOCKER_BUILDKIT=0
+set COMPOSE_DOCKER_CLI_BUILD=0
+
+# Stop any existing containers
+docker-compose down
+
+# Build and start services
+docker-compose up -d --build
+
+# Check if everything is running
+docker-compose ps
+```
+
+### Step 3: Access Your Services
+
+- **Admin Panel**: http://localhost:3000
+- **Login**: Username `admin`, Password from your .env file
+- **Telegram Bot**: Message your bot on Telegram
+
+## Using Your Bot
+
+### Bot Commands
+- `/start` - Initialize the bot
+- `/check` - Verify an email address
+- `/stats` - View your usage statistics
+- `/invite` - Get referral link for bonus checks
+- `/help` - Show available commands
+
+### Admin Panel Features
+- **Dashboard**: Real-time statistics and charts
+- **User Management**: View and manage bot users
+- **Email History**: See all verification attempts
+- **Broadcasts**: Send messages to users
+- **Settings**: Configure bot behavior
+
+## Troubleshooting
+
+### Common Issues
+
+**1. Docker authentication error (buildx)**
+```cmd
+# Run this before docker-compose up
+set DOCKER_BUILDKIT=0
+set COMPOSE_DOCKER_CLI_BUILD=0
+```
+
+**2. Port already in use**
+```cmd
+# Kill processes using ports 3000 or 5433
+netstat -ano | findstr :3000
+taskkill /F /PID [PID_NUMBER]
+```
+
+**3. Bot not responding**
+- Check your `TELEGRAM_BOT_TOKEN` in .env
+- Verify the bot is started with `/start`
+- Check logs: `docker-compose logs app`
+
+**4. Email verification fails**
+- Verify your `MAILBOXLAYER_API_KEY` in .env
+- Check API quota at mailboxlayer.com
+- Review logs: `docker-compose logs app`
+
+**5. Can't access admin panel**
+- Make sure containers are running: `docker-compose ps`
+- Check if http://localhost:3000 is accessible
+- Verify credentials in .env file
+
+### Useful Commands
+
+```cmd
+# View all service logs
+docker-compose logs
+
+# View specific service logs
+docker-compose logs app
+docker-compose logs postgres
+
+# Restart all services
+docker-compose restart
+
+# Stop all services
+docker-compose down
+
+# Rebuild everything
+docker-compose down
+docker-compose up -d --build
+
+# Check running containers
+docker ps
+
+# Access database directly
+docker-compose exec postgres psql -U torevar -d telegram_bot
+```
+
+### Windows-Specific Tips
+
+1. **Use Command Prompt or PowerShell** as Administrator if you encounter permission issues
+
+2. **Windows Defender**: May block Docker. Add Docker Desktop to exclusions
+
+3. **File Sharing**: Docker Desktop needs access to your drive. Enable in Docker settings
+
+4. **WSL2**: If using WSL2 backend, ensure it's properly configured
+
+## Project Structure
+
+```
+SpookMail/
+├── client/           # React frontend (admin panel)
+├── server/           # Node.js backend and bot
+├── shared/           # Database schema
+├── scripts/          # Setup scripts
+├── docker-compose.yml # Docker configuration
+├── .env             # Your API keys and settings
+└── README.md        # Documentation
+```
+
+## Security Notes
+
+- Never commit your `.env` file to version control
+- Use strong passwords for production
+- The default setup is for development only
+- For production, use HTTPS and secure database credentials
+
+## Need Help?
+
+1. Check the logs: `docker-compose logs -f`
+2. Verify your API keys are correct
+3. Ensure Docker Desktop is running
+4. Try restarting the services: `docker-compose restart`
+
+---
+
+**Your SpookMail bot is now ready to haunt Windows and verify emails!** 🎃👻
